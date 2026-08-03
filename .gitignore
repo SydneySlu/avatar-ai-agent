@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+dist/
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+!.env.customer.example
+
+# runtime data and generated media
+data/postprocess/
+data/chanjing/
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.docx
+*.zip
+*.rar
+*.7z
+
+# local tooling
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
