@@ -79,19 +79,19 @@ Subtitle sources are selected in this order:
 
 ```text
 src/
-?? app/api/                 # API routes: script, refine, videos, postprocess, health
-?? components/              # UI components for event input, script editor, video status, postprocess
-?? lib/
-?  ?? llm/                  # OpenAI-compatible LLM provider
-?  ?? persona/              # persona_pack loading and schema
-?  ?? script/               # prompt construction and script sanitization
-?  ?? video-provider/       # provider abstraction
-?  ?? relay/                # relay client and provider
-?  ?? heygen/               # HeyGen client
-?  ?? postprocess/          # ffmpeg, subtitles, job store, final export
-?? prompts/                 # prompt templates
-?? data/persona/            # sanitized demo persona files
-?? docs/                    # design, deployment, and delivery notes
+|-- app/api/                 # API routes: script, refine, videos, postprocess, health
+|-- components/              # UI components for event input, script editor, video status, postprocess
+|-- lib/
+|   |-- llm/                 # OpenAI-compatible LLM provider
+|   |-- persona/             # persona_pack loading and schema
+|   |-- script/              # prompt construction and script sanitization
+|   |-- video-provider/      # provider abstraction
+|   |-- relay/               # relay client and provider
+|   |-- heygen/              # HeyGen client
+|   |-- postprocess/         # ffmpeg, subtitles, job store, final export
+|-- prompts/                 # prompt templates
+|-- data/persona/            # sanitized demo persona files
+|-- docs/                    # design, deployment, and delivery notes
 ```
 
 ## Quick Start
