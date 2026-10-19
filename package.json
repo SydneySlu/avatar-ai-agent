@@ -1,6 +1,7 @@
 {
   "name": "avatar-broadcaster",
   "version": "0.1.0",
+  "description": "AI content production workflow for persona-driven scripts, digital avatar videos, subtitles, and background music.",
   "private": true,
   "scripts": {
     "dev": "next dev",
